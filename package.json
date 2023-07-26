@@ -1,11 +1,11 @@
 {
   "name": "html-docx-fixed",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Converts HTML documents to DOCX in the browser,fixed version based on html-docx-js",
   "main": "build/api.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/EsionMa/html-docx-fixed.git"
+    "url": "https://github.com/EsionMa/html-docx-fixed.git"
   },
   "scripts": {
     "test": "gulp test-node",
@@ -18,10 +18,12 @@
     ]
   },
   "author": "1star",
-  "contributors": [{
-    "name": "Esion Ma",
-    "email": "esion_ma@hotmail.com"
-  }],
+  "contributors": [
+    {
+      "name": "Esion Ma",
+      "email": "esion_ma@hotmail.com"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "brfs": "^1.1.2",

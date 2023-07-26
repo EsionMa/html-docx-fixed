@@ -1,5 +1,6 @@
-html-docx-js
+html-docx-fixed
 ============
+### html-docx-fixed based on [html-docx-js](https://github.com/evidenceprime/html-docx-js)
 
 This is a very small library that is capable of converting HTML documents to DOCX format that
 is used by Microsoft Word 2007 and onward. It manages to perform the conversion in the browser by
@@ -41,6 +42,9 @@ You can also find a sample for using it in Node.js environment
 
 To generate DOCX, simply pass a HTML document (as string) to `asBlob` method to receive `Blob` (or `Buffer`)
 containing the output file.
+
+    import htmlDocx from 'html-docx-fixed/dist/html-docx';
+    import saveAs from 'file-saver';
 
     var converted = htmlDocx.asBlob(content);
     saveAs(converted, 'test.docx');
